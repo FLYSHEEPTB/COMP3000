@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\DELL\AndroidStudioProjects\MyApplication\app"
+    name=":app"
+    type="APP"
+    maven="My Application:app:unspecified"
+    agpVersion="8.7.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\DELL\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
