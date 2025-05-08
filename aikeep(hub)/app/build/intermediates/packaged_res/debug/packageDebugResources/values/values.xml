@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="LLM">进入健身大模型页面</string>
+    <string name="app_name">My Application</string>
+    <string name="emothion">进入情感分析页面</string>
+    <string name="language_clean_text">清除历史记录</string>
+    <string name="language_content_text">在此输入内容：</string>
+    <string name="language_history_text">历史对话记录：</string>
+    <string name="language_question_text">请输入你的问题：</string>
+    <string name="language_request_failed">请求失败，请检查网络连接或服务是否启动。</string>
+    <string name="language_result">情感分析结果：</string>
+    <string name="language_start_text">开始分析情感</string>
+    <string name="language_submit_text">提交</string>
+    <string name="language_title2_text">情感分析模型</string>
+    <string name="language_title_text">Ai Keep-健身大模型</string>
+    <string name="language_toggle_button_text">切换语言</string>
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

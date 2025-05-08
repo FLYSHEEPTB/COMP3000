@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- App标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ai Keep-健身大模型"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6200EE"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 问题输入框 -->
+        <EditText
+            android:id="@+id/question_input"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="请输入你的问题："
+            android:gravity="top"
+            android:minLines="4"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:background="@drawable/textview_border"/>
+
+        <!-- 按钮并排放置 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <!-- 提交按钮 -->
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="提交"
+                android:textSize="16sp"
+                android:backgroundTint="#6200EE"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp" />
+
+            <!-- 清除历史记录按钮 -->
+            <Button
+                android:id="@+id/btn_clear_history"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="清除历史记录"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF5722" />
+
+        </LinearLayout>
+
+        <!-- 回复显示 -->
+
+        <ScrollView
+            android:id="@+id/reply_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textview_border"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/reply_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="yes"
+                android:padding="8dp"
+                android:text="历史对话记录："
+                android:layout_gravity="start|top"
+                android:textSize="16sp" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/example_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fitness" />
+
+        <Button
+            android:id="@+id/btn_navigate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:text="进入情感分析页面" />
+
+    </LinearLayout>
+</ScrollView>

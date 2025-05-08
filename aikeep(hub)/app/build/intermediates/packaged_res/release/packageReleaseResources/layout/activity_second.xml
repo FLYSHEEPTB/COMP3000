@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="情感分析模型"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#3698BF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/question_input"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="在此输入内容："
+                android:gravity="top"
+                android:minLines="4"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@drawable/textview_border2"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开始分析情感"
+                android:textSize="16sp"
+                android:backgroundTint="#3698BF"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="情感分析结果："
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/example_image"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zhiyu" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入健身大模型页面"
+                android:textSize="16sp"
+                android:backgroundTint="#3698BF"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>

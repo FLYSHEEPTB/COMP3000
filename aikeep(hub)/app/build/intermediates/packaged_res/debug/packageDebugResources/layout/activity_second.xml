@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_title2_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#3698BF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/question_input"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="@string/language_content_text"
+                android:gravity="top"
+                android:minLines="4"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@drawable/textview_border2"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/language_start_text"
+                android:textSize="16sp"
+                android:backgroundTint="#3698BF"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/language_result"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/example_image"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zhiyu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <!-- 切换语言按钮 -->
+            <Button
+                android:id="@+id/btn_language_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_toggle_button_text"
+                android:backgroundTint="#F7D8DF"
+                android:textColor="#3698BF"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp" />
+
+            <!-- 返回按钮 -->
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LLM"
+                android:textSize="16sp"
+                android:backgroundTint="#3698BF"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
