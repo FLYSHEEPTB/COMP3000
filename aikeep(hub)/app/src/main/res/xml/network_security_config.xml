@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- 用于模拟器访问本地服务器 -->
+        <domain includeSubdomains="true">localhost</domain> <!-- 如果需要 -->
+        <domain includeSubdomains="true">72eg212952.vicp.fun</domain>
+        <domain includeSubdomains="true">684kg1778.shenzhuo.vip:47736</domain>
+    </domain-config>
+</network-security-config>

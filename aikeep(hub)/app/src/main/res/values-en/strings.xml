@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="language_toggle_button_text">Switch Language</string>
+    <string name="language_title_text">Ai Keep - Fitness LLM</string>
+    <string name="language_question_text">Please enter your question:</string>
+    <string name="language_submit_text">submit</string>
+    <string name="language_clean_text">clean</string>
+    <string name="language_history_text">Historical dialogue records:</string>
+    <string name="emothion">Enter the sentiment analysis page</string>
+    <string name="language_title2_text">Emotion Analysis Model</string>
+    <string name="language_content_text">Enter here:</string>
+    <string name="language_start_text">Start analyzing sentiment</string>
+    <string name="language_result">Sentiment Analysis Results:</string>
+    <string name="language_request_failed">Request failed, please check the network connection or if the service is running.</string>
+    <string name="LLM">Enter the fitness model page</string>
+</resources>
